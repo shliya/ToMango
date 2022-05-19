@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Gentium;
+    src: url(../frontstyle/fontStyle/清松手寫體1.ttf);
+  }
+  .cutefont{ font-family: Gentium, serif; }
+  h4 { font-family: Gentium, serif; }
+  h3 { font-family: Gentium, serif; }
+
+
+  .mask {
+    width: 65%;
+    height: 95%;
+    background-color: gray;
+    background-size: cover;
+    -webkit-mask: url(../images/socialLogo/toMango.png) no-repeat center center;
+    mask: url(../images/socialLogo/toMango.png) no-repeat center center;
+    /* -webkit-mask-size: contain; */
+    position: absolute;
+    z-index:1;
+  }
